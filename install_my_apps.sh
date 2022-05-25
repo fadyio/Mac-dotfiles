@@ -1,15 +1,16 @@
 #!/bin/bash/
 #######################################
-# Bash script to install apps on a new system (Ubuntu)
-# Written by @AamnahAkram from http://aamnah.com
+# Bash script to install apps on a new system (MacOS)
+# Written by @Fady0 from http://codeoi.com
 #######################################
 
-## Update packages and Upgrade system
-sudo apt-get update -y
+##  install homebrew
+echo '###Installing homebrew..'
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## Git ##
 echo '###Installing Git..'
-sudo apt-get install git -y
+brew install git
 
 # Git Configuration
 echo '###Congigure Git..'
