@@ -8,7 +8,6 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
 ZINIT[PLUGINS_DIR]=~/.dotfiles/.zsh/plugins
-ZINIT[COMPLETIONS_DIR]=~/.dotfiles/.zsh/plugins
 ZINIT[SNIPPETS_DIR]=~/.dotfiles/.zsh/plugins
 
 ######################### End of Zinit's installer chunk
