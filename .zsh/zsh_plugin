@@ -15,6 +15,9 @@ zinit light jeffreytse/zsh-vi-mode
 zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
+# zsh iTerm Touchbar
+zinit light iam4x/zsh-iterm-touchbar
+
 # zsh-autopair
 zinit snippet https://raw.githubusercontent.com/hlissner/zsh-autopair/master/autopair.zsh
 

@@ -6,9 +6,9 @@
 ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-
 ## This is [my MacOS](https://www.apple.com/macos/monterey/) Mac-dotfiles
-I use  [GNU Stow](https://www.gnu.org/software/stow/) to Managing My Dotfiles.
+
+I use [GNU Stow](https://www.gnu.org/software/stow/) to Managing My Dotfiles.
 
 It includes my `zsh`, `[v/nv]im`, `tmux`, `git`, `.hammerspoon` `karabiner` , ... config files.
 
@@ -27,12 +27,13 @@ git clone --recursive https://github.com/fady0/Mac-dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow nvim
 ```
+
 ## Screenshots
 
-
-
 <!-- LICENSE -->
+
 ## License
+
 Distributed under the MIT License. See `LICENSE.md` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
