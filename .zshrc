@@ -3,12 +3,12 @@
 #		      Github:@fady0    
 #
 #################### Added by Zinit's installer
-source "$HOME/.dotfiles/.zsh/plugins/zinit/zinit.zsh"
+source "$HOME/.zsh/plugins/zinit/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-ZINIT[PLUGINS_DIR]=~/.dotfiles/.zsh/plugins
-ZINIT[SNIPPETS_DIR]=~/.dotfiles/.zsh/plugins
+ZINIT[PLUGINS_DIR]=~/.zsh/plugins
+ZINIT[SNIPPETS_DIR]=~/.zsh/plugins
 
 ######################### End of Zinit's installer chunk
 ######################### export
