@@ -47,8 +47,8 @@ SAVEHIST=10000
 setopt noglob
 
 ########################## source alias and Plugins ####################
-source ~/.dotfiles/.zsh/zsh_plugin
-source ~/.dotfiles/.zsh/zsh-alias
+source ~/.zsh/zsh_plugin
+source ~/.zsh/zsh-alias
 
 #################### start tmux automatically ##########################
 tmux attach &> /dev/null
