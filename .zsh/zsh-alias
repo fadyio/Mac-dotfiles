@@ -33,4 +33,3 @@ chpwd() exa --icons --group-directories-first --color-scale
   alias i3config='nvim ~/.config/i3/config'
   alias hosts='sudo nvim /etc/hosts'
   alias x='extract'
-  alias z='zoxide add' 
