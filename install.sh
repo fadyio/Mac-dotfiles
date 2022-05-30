@@ -57,7 +57,7 @@ brew install neovim
 brew install vim
 brew install stow
 brew install node
-sudo corepack enable
+corepack enable
 
 ## STOW the files
 stow .
