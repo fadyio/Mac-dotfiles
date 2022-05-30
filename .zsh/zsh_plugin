@@ -36,6 +36,12 @@ zinit snippet https://raw.githubusercontent.com/le0me55i/zsh-extract/master/extr
 # Replace zsh's default completion selection menu with fzf
 zinit light Aloxaf/fzf-tab
 
+# zsh-fzf-history-search
+zinit ice lucid wait'0'
+zinit light joshskidmore/zsh-fzf-history-search
+
+# undo your last commit in git 
+zinit light Bhupesh-V/ugit
 
 
 
