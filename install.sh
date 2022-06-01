@@ -5,6 +5,9 @@
 #######################################
 
 ##  install homebrew
+echo '###Installing xcode developer tools'
+xcode-select --install
+
 echo '###Installing homebrew..'
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 

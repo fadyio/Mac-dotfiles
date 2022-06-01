@@ -25,7 +25,6 @@ chpwd() exa --icons --group-directories-first --color-scale
   alias tree="exa --tree --icons --color-scale --level=2"
   alias torrent='aria2c -d ~/Downloads'
   alias downsite='wget -r -p -U Mozilla --wait=10 --limit-rate=35K'
-  alias upgrade='sudo pacman -Syu'
   alias zshreload="source ~/.zshrc"
   alias vi='nvim'
   alias vim='nvim'
@@ -35,12 +34,8 @@ chpwd() exa --icons --group-directories-first --color-scale
   alias c='clear'
   alias nvimconfig='nvim ~/.config/nvim/init.vim'
   alias zshconfig='nvim ~/.zshrc'
-  alias i3config='nvim ~/.config/i3/config'
   alias hosts='sudo nvim /etc/hosts'
   alias x='extract'
-<<<<<<< HEAD:.zsh/zsh_alias
   alias memory='ps axch -o cmd:15,%mem --sort=-%mem | head'
   alias cputemp='sensors | awk '/^Core*/ {print $1$2, $3}''
   alias cpu='ps axch -o cmd:15,%cpu --sort=-%cpu | head'
-=======
->>>>>>> dd0261bcf88acf0cb45257e1a4db28cdb7223e7e:.zsh/zsh-alias
