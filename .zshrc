@@ -48,7 +48,7 @@ setopt noglob
 
 ########################## source alias and Plugins ####################
 source ~/.zsh/zsh_plugin
-source ~/.zsh/zsh-alias
+source ~/.zsh/zsh_alias
 
 #################### start tmux automatically ##########################
 tmux attach &> /dev/null
