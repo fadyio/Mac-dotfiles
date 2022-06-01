@@ -59,6 +59,14 @@ brew install fzf
 brew install neovim
 brew install vim
 brew install stow
+brew install wget
+brew install aria2
+brew install yt-dlp
+brew install insect
+brew install dict
+brew install ranger
+brew install cowsay
+brew install wkhtmltopdf
 brew install node
 corepack enable
 
