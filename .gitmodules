@@ -20,9 +20,6 @@
 [submodule ".zsh/plugins/Aloxaf---fzf-tab"]
 	path = .zsh/plugins/Aloxaf---fzf-tab
 	url = https://github.com/Aloxaf/fzf-tab
-[submodule ".scripts/i3-easyfocus"]
-	path = .scripts/i3-easyfocus
-	url = https://github.com/cornerman/i3-easyfocus
 [submodule ".zsh/plugins/Bhupesh-V---ugit"]
 	path = .zsh/plugins/Bhupesh-V---ugit
 	url = https://github.com/Bhupesh-V/ugit
@@ -32,6 +29,9 @@
 [submodule ".zsh/plugins/zsh-users---zsh-completions"]
 	path = .zsh/plugins/zsh-users---zsh-completions
 	url = https://github.com/zsh-users/zsh-completions
+[submodule ".zsh/plugins/iam4x---zsh-iterm-touchbar"]
+	path = .zsh/plugins/iam4x---zsh-iterm-touchbar
+	url = https://github.com/iam4x/zsh-iterm-touchbar
 
 # submodule tmux
 [submodule ".tmux/plugins/tmux-sensible"]
