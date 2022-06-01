@@ -37,9 +37,10 @@ chpwd() exa --icons --group-directories-first --color-scale
   alias zshconfig='nvim ~/.zshrc'
   alias i3config='nvim ~/.config/i3/config'
   alias hosts='sudo nvim /etc/hosts'
-  alias pbcopy='xsel --clipboard --input'
-  alias pbpaste='xsel --clipboard --output'
   alias x='extract'
+<<<<<<< HEAD:.zsh/zsh_alias
   alias memory='ps axch -o cmd:15,%mem --sort=-%mem | head'
   alias cputemp='sensors | awk '/^Core*/ {print $1$2, $3}''
   alias cpu='ps axch -o cmd:15,%cpu --sort=-%cpu | head'
+=======
+>>>>>>> dd0261bcf88acf0cb45257e1a4db28cdb7223e7e:.zsh/zsh-alias
