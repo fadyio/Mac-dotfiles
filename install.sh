@@ -67,8 +67,10 @@ brew install dict
 brew install ranger
 brew install cowsay
 brew install wkhtmltopdf
+brew install alacritty
 brew install node
 corepack enable
+npm i -g alacritty-themes
 
 ## STOW the files
 stow .
