@@ -69,8 +69,36 @@ brew install cowsay
 brew install wkhtmltopdf
 brew install alacritty
 brew install node
+brew install  tealdeer
 corepack enable
 npm i -g alacritty-themes
-
+brew install clang-format
+brew install coursier/formulas/coursier
+coursier install scalafm
+brew install logcheck
+sudo npm install -g markdownlint
+pip install semgrep
+pip install --user yamllint
+sudo npm install -g write-good
+brew install shfmt
+brew install rustfmt
+pip install yapf
+pip install proselint
+pip install isort
+npm install -g fixjson
+pip3 install "ansible-lint"
+pip install curlylint
+python -m pip install flake8
+pip install gitlint   
+brew install jq
+npm install -g prettier_d_slim
+npm install -g markdownlint-cli
+pip install codespell
+pip install cmakelang
+pip install sqlfluff
+npm install -g eslint_d
+brew install swiftformat
+brew install cppcheck
+brew install shellcheck
 ## STOW the files
 stow .

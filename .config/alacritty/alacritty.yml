@@ -1,6 +1,4 @@
-# Nightfox Alacritty Colors
-# Style: nightfox
-# Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/nightfox/nightfox_alacritty.yml
+# TokyoNight Alacritty Colors
 colors:
   # Default colors
   primary:
@@ -28,8 +26,7 @@ colors:
     magenta: '#a47de9'
     cyan: '#99faf2'
     white: '#ffffff'
-theme: iTerm-Default
-
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 # Font configuration
 font:
   # Normal (roman) font face
@@ -62,3 +59,4 @@ font:
   #glyph_offset:
   #  x: 0
   #  y: 0
+theme: iTerm-Default
