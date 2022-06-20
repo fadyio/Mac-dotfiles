@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Written by @Fadynagh from http://fadyio.com
 # Email:me@fadyio.com
 # Github: @fady0
+=======
+>>>>>>> parent of 5300e92 (tray)
 ################# Plugins ####################
 # zsh syntax highlighting
 zinit wait lucid for \
@@ -18,6 +21,12 @@ zinit light jeffreytse/zsh-vi-mode
 zinit ice depth"1" # git clone depth
 zinit light romkatv/powerlevel10k
 
+<<<<<<< HEAD
+=======
+# zsh iTerm Touchbar
+zinit light iam4x/zsh-iterm-touchbar
+
+>>>>>>> parent of 5300e92 (tray)
 # zsh-autopair
 zinit snippet https://raw.githubusercontent.com/hlissner/zsh-autopair/master/autopair.zsh
 
@@ -40,11 +49,21 @@ zinit light Aloxaf/fzf-tab
 zinit ice lucid wait'0'
 zinit light joshskidmore/zsh-fzf-history-search
 
+<<<<<<< HEAD
 # Utility tool for using git interactively
 zinit load wfxr/forgit
+=======
+# undo your last commit in git 
+zinit light Bhupesh-V/ugit
+>>>>>>> parent of 5300e92 (tray)
 
 # zsh-history-substring-search
 zinit light zsh-users/zsh-history-substring-search
 
 # z for zsh
 zinit load agkozak/zsh-z
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> parent of 5300e92 (tray)
