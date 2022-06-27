@@ -1,5 +1,7 @@
 --[[
-        http://github.com/fady0
+ -- Written by @Fadynagh from http://fadyio.com
+ -- Email:me@fadyio.com
+ -- Github: @fadyio
 ---------------------------------------------------------------------
                                  My Neovim Plugins
 ---------------------------------------------------------------------
@@ -37,7 +39,6 @@ packer.init({
 		end,
 	},
 })
-require("impatient")
 return require("packer").startup(function(use)
 	-- Let packer manage itself
 	use("wbthomason/packer.nvim")
@@ -79,8 +80,6 @@ return require("packer").startup(function(use)
 	use("VonHeikemen/searchbox.nvim")
 	--A fancy, configurable, notification manager for NeoVim
 	use("rcarriga/nvim-notify")
-	--  vscode-like pictograms for neovim lsp completion items
-	use("onsails/lspkind.nvim")
 	-- markdown previewer
 	use({
 		"iamcco/markdown-preview.nvim",
@@ -125,11 +124,9 @@ return require("packer").startup(function(use)
 			{ "rafamadriz/friendly-snippets" },
 			-- null-ls.nvim
 			{ "jose-elias-alvarez/null-ls.nvim" },
-			--copilot
---			{ "github/copilot.vim" },
---			{ "hrsh7th/cmp-copilot" },
 		},
 	})
+
 	-- code runner
 	use({ "michaelb/sniprun", run = "bash ./install.sh" })
 	-- 	---------------------------------------------------------------------------- }}}
@@ -140,7 +137,9 @@ return require("packer").startup(function(use)
 	use("numToStr/Comment.nvim")
 	-- powerful autopair plugin for Neovim that supports multiple characters
 	use("windwp/nvim-autopairs")
-	--
+	--  The superior project management solution for neovim.
+	use("ahmedkhalf/project.nvim")
+	-- nvim-tree
 	use("kyazdani42/nvim-tree.lua")
 	-- Easily jumb between files
 	use("ThePrimeagen/harpoon")
