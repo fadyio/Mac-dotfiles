@@ -1,3 +1,7 @@
+-- Written by @Fadynagh from http://fadyio.com
+-- Email:me@fadyio.com
+-- Github: @fady0
+--
 local status_ok, configs = pcall(require, "nvim-treesitter.configs")
 if not status_ok then
 	return
@@ -7,7 +11,7 @@ configs.setup({
 	ensure_installed = "all",
 	"norg",
 	sync_install = false,
-	ignore_install = { "jsonc", "fusion", "ocamllex" },
+	ignore_install = { "jsonc", "fusion", "ocamllex","phpdoc" },
 
 	autopairs = {
 		enable = true,
