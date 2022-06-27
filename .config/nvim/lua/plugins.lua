@@ -37,7 +37,6 @@ packer.init({
 		end,
 	},
 })
-require("impatient")
 return require("packer").startup(function(use)
 	-- Let packer manage itself
 	use("wbthomason/packer.nvim")
