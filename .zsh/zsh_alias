@@ -18,11 +18,9 @@ chpwd() exa --icons --group-directories-first --color-scale
   alias :q="exit"
   alias q='exit'
   alias c='clear'
-  alias upgrade='sudo pacman -Syu'
   alias zshreload="source ~/.zshrc"
   alias nvimconfig='nvim ~/.config/nvim/init.vim'
   alias zshconfig='nvim ~/.zshrc'
-  alias i3config='nvim ~/.config/i3/config'
   alias hosts='sudo nvim /etc/hosts'
   alias pbcopy='xsel --clipboard --input'
   alias pbpaste='xsel --clipboard --output'
@@ -46,7 +44,6 @@ chpwd() exa --icons --group-directories-first --color-scale
   alias blist='yt-dlp --add-header 'Accept:*/*' -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s"'
   alias torrent='aria2c -d ~/Downloads'
   alias downsite='wget -r -p -U Mozilla --wait=10 --limit-rate=35K'
-
 ## Git stuff
   alias g='git'
   alias lg='lazygit'
