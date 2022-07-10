@@ -100,5 +100,6 @@ npm install -g eslint_d
 brew install swiftformat
 brew install cppcheck
 brew install shellcheck
+brew install delta
 ## STOW the files
 stow .
