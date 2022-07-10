@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-# Written by @Fadynagh from http://fadyio.com
-# Email:me@fadyio.com
-# Github: @fady0
-
-colors:
-  # Default colors
-  primary:
-    background: '#101421'
-    foreground: '#fffbf6'
-
-  # Normal colors
-  normal:
-    black: '#2e2e2e'
-    red: '#eb4129'
-    green: '#abe047'
-    yellow: '#f6c744'
-    blue: '#47a0f3'
-    magenta: '#7b5cb0'
-    cyan: '#64dbed'
-    white: '#e5e9f0'
-
-  # Bright colors
-  bright:
-    black: '#565656'
-    red: '#ec5357'
-    green: '#c0e17d'
-    yellow: '#f9da6a'
-    blue: '#49a4f8'
-    magenta: '#a47de9'
-    cyan: '#99faf2'
-    white: '#ffffff'
-## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
-# Font configuration
-=======
->>>>>>> 8ae9dcf1b103204fb6aafb0ede88ac4abee21152
 font:
   # Normal (roman) font face
   normal:
@@ -56,7 +20,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 13
+  size: 16
   # Offset
   #offset:
   #  x: 0
@@ -65,7 +29,6 @@ font:
   #glyph_offset:
   #  x: 0
   #  y: 0
-theme: github_dark
 colors:
   # Default colors
   primary:
@@ -97,3 +60,4 @@ colors:
   indexed_colors:
     - { index: 16, color: '0xd18616' }
     - { index: 17, color: '0xf14c4c' }
+theme: github_dark
