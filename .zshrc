@@ -13,6 +13,7 @@ ZINIT[SNIPPETS_DIR]=~/.zsh/plugins
 ######################### End of Zinit's installer chunk
 ######################### export
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/Library/Python/3.8/bin:$PATH"
 export EDITOR="nvim"
 export VISUAL='nvim'
 export LANG=en_US.UTF-8
