@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Written by @Fadynagh from http://fadyio.com
 # Email:me@fadyio.com
 # Github: @fady0
@@ -31,6 +32,8 @@ colors:
     white: '#ffffff'
 ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 # Font configuration
+=======
+>>>>>>> 8ae9dcf1b103204fb6aafb0ede88ac4abee21152
 font:
   # Normal (roman) font face
   normal:
@@ -53,7 +56,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 17
+  size: 13
   # Offset
   #offset:
   #  x: 0
@@ -62,4 +65,35 @@ font:
   #glyph_offset:
   #  x: 0
   #  y: 0
-theme: iTerm-Default
+theme: github_dark
+colors:
+  # Default colors
+  primary:
+    background: '0x24292e'
+    foreground: '0xd1d5da'
+
+  # Normal colors
+  normal:
+    black: '0x24292e'
+    red: '0xf14c4c'
+    green: '0x23d18b'
+    yellow: '0xe2e210'
+    blue: '0x3b8eea'
+    magenta: '0xbc3fbc'
+    cyan: '0x29b7da'
+    white: '0xd1d5da'
+
+  # Bright colors
+  bright:
+    black: '0x666666'
+    red: '0xf14c4c'
+    green: '0x23d18b'
+    yellow: '0xf5f543'
+    blue: '0x3b8eea'
+    magenta: '0xd670d6'
+    cyan: '0x29b7da'
+    white: '0xd1d5da'
+
+  indexed_colors:
+    - { index: 16, color: '0xd18616' }
+    - { index: 17, color: '0xf14c4c' }
