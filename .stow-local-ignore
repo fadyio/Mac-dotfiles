@@ -1,17 +1,12 @@
 .screenshot
-<<<<<<< HEAD
 install_my_apps.sh
-=======
 install.sh
->>>>>>> parent of 5300e92 (tray)
 LICENSE.md
 README.md
 .gitignore
 .gitmodules
 .git
-<<<<<<< HEAD
 .deepsource.toml
 .DS_Store
+scripts
 
-=======
->>>>>>> parent of 5300e92 (tray)
