@@ -20,7 +20,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 13
+  size: 17
   # Offset
   #offset:
   #  x: 0
@@ -29,7 +29,6 @@ font:
   #glyph_offset:
   #  x: 0
   #  y: 0
-theme: github_dark
 colors:
   # Default colors
   primary:
@@ -61,3 +60,4 @@ colors:
   indexed_colors:
     - { index: 16, color: '0xd18616' }
     - { index: 17, color: '0xf14c4c' }
+theme: github_dark
